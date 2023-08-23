@@ -6,7 +6,7 @@ It says that when we have a class that does not meet this principle, we must div
 
 Let's go to the example. We'll create a small class to manage our reports.
 
-```
+```php
 <?php
 class Report
 {
@@ -40,7 +40,7 @@ In our small example, our class has two responsibilities:
 Bring in the report data.
 Format the report to JSON format. So we are violating the principle of single responsibility.
 To resolve this, let's do the following:
-```
+```php
 <?php
 class Report
 {
@@ -63,7 +63,7 @@ class Report
     }
 }
 ```
-```
+```php
 <?php
 class JsonReportFormatter
 {

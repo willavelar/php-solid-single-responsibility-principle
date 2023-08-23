@@ -1,10 +1,10 @@
 ## Single responsibility principle
 
-The first principle of SOLID basically says that a class should have only one responsibility.
+This principle of SOLID basically says that a class should have only one responsibility.
 
 It says that when we have a class that does not meet this principle, we must divide it into more classes until this occurs.
 
-Let's go to the example. We'll create a small class to manage our reports.
+We'll create a small class to manage our reports.
 
 ```php
 <?php
@@ -35,7 +35,7 @@ class Report
 } 
 ```
 
-In our small example, our class has two responsibilities:
+In this example, our class has two responsibilities:
 
 Bring in the report data.
 Format the report to JSON format. So we are violating the principle of single responsibility.
